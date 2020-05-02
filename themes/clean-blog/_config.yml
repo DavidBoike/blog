@@ -1,0 +1,53 @@
+# Header
+menu:
+  Home: /
+  Contact: https://github.com/DavidBoike/feedback/issues/new
+  Github:
+    url: https://github.com/DavidBoike
+    icon: github
+  Twitter:
+    url: https://twitter.com/DavidBoike
+    icon: twitter
+  LinkedIn:
+    url: https://www.linkedin.com/in/david-boike/
+    icon: linkedin
+  Feed:
+    url: https://feeds.feedburner.com/MakeAwesome
+    icon: rss
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: 
+
+# URL of the Home page image
+index_cover: /images/view-from-space.jpg
+
+# Default post title
+default_post_title: Untitled
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname: davidboike
+  # Facebook comments
+  facebook:
+    appid:
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Addthis ID
+addthis:
+
+# set your own favicon
+favicon:
+
+# Social Accounts
+twitter_url: https://twitter.com/DavidBoike
+twitter_handle: DavidBoike
+facebook_url:
+github_url: https://github.com/DavidBoike
+gitlab_url:
+linkedin_url: https://www.linkedin.com/in/david-boike/
+mailto:

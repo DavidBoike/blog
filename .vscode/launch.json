@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Generate (Debug)",
+            "program": "${workspaceRoot}/node_modules/hexo/bin/hexo",
+            "args": ["generate"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Serve (Debug)",
+            "program": "${workspaceRoot}/node_modules/hexo/bin/hexo",
+            "args": ["serve"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Generate (Prod)",
+            "program": "${workspaceRoot}/node_modules/hexo/bin/hexo",
+            "args": ["generate", "production"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Serve (Prod)",
+            "program": "${workspaceRoot}/node_modules/hexo/bin/hexo",
+            "args": ["serve", "production"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Test scaffolding",
+            "program": "${workspaceRoot}/node_modules/hexo/bin/hexo",
+            "args": ["new", "webinar", "This is the title"]
+        }
+    ]
+}
