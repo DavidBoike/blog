@@ -12,11 +12,11 @@ tags:
 - APNS
 comments: true
 ---
-I’m [no big fan of Apple’s Push Notifications API](http://www.make-awesome.com/2010/10/hey-apple-your-push-notifications-api-sucks/), but the fact is that iOS applications are no passing fad.  As developers providing server-side resources to mobile applications, our job is to do so as efficiently as possible.
+I’m [no big fan of Apple’s Push Notifications API](/2010/10/hey-apple-your-push-notifications-api-sucks/), but the fact is that iOS applications are no passing fad.  As developers providing server-side resources to mobile applications, our job is to do so as efficiently as possible.
 
 For .NET developers able to commit financial resources, third party solutions such as Urban Airship can be the answer.  For developers wishing to control their own destiny, the open-source [apns-sharp](http://code.google.com/p/apns-sharp/) provides Apple push notifications and feedback services in a C\# library.
 
-Considering the [ridiculous complexity of the Apple Push Notification format](http://www.make-awesome.com/2010/10/hey-apple-your-push-notifications-api-sucks/), it would behoove any developer to use apns-sharp instead of trying to re-invent the wheel.  NServiceBus together with apns-sharp would offer the reliability and scalability needed to successfully send push notifications for a high-capacity enterprise system.
+Considering the [ridiculous complexity of the Apple Push Notification format](/2010/10/hey-apple-your-push-notifications-api-sucks/), it would behoove any developer to use apns-sharp instead of trying to re-invent the wheel.  NServiceBus together with apns-sharp would offer the reliability and scalability needed to successfully send push notifications for a high-capacity enterprise system.
 
 Unfortunately, until recently apns-sharp and NServiceBus didn’t work and play well together.  I contributed to the apns-sharp to address these shortcomings.  In this article, I will describe how to use these modifications to apns-sharp to send push notifications with NServiceBus.
 

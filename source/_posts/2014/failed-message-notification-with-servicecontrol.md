@@ -11,7 +11,7 @@ tags:
 - ServiceControl
 comments: true
 ---
-In my post [Distributed System Monitoring Done Right](http://www.make-awesome.com/2014/04/distributed-system-monitoring-done-right/), I mentioned in passing how [ServicePulse](http://particular.net/servicepulse) doesn't ship with any built-in notification system for failed messages, but that you could easily build a system to send an email (or SMS, or carrier pigeon) to do so.
+In my post [Distributed System Monitoring Done Right](/2014/04/distributed-system-monitoring-done-right/), I mentioned in passing how [ServicePulse](http://particular.net/servicepulse) doesn't ship with any built-in notification system for failed messages, but that you could easily build a system to send an email (or SMS, or carrier pigeon) to do so.
 
 In this post I'll show you how.
 

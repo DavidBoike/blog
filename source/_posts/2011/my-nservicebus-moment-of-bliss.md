@@ -40,7 +40,7 @@ And there’s no backup for this system.  And there’s no way to scale it out.
 
 ## How I Learned to Stop Worrying and Love the Bus
 
-My new project was essentially a big RSS processing system.  I began investigating NServiceBus because I knew this system had the potential to grow to a point requiring horizontal scale-out.  I really approached NServiceBus just as a method of [load-balancing a console process](http://www.make-awesome.com/2010/03/nservicebus-a-solution-for-load-balancing-console-applications/) the same way I would load-balance a Web application.
+My new project was essentially a big RSS processing system.  I began investigating NServiceBus because I knew this system had the potential to grow to a point requiring horizontal scale-out.  I really approached NServiceBus just as a method of [load-balancing a console process](/2010/03/nservicebus-a-solution-for-load-balancing-console-applications/) the same way I would load-balance a Web application.
 
 An RSS processor as assembled with NServiceBus is a lot like an assembly line.  A feed is downloaded, and then split into its constituent items.  Each item is sent off to an item processor, where depending upon feed configuration, many things can happen.  Images may be downloaded and resized.  Referenced videos may be transcoded to different formats.  The system could really do anything with an item, depending on its configuration in the database.  A saga is responsible for waiting until all the items have been processed, at which point the feed is complete and other applications can be notified via events.  Above it all, a scheduler is responsible for watching over everything and commanding the feed to reprocess after a given timeout.
 

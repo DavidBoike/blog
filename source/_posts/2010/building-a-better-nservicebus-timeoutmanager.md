@@ -11,7 +11,7 @@ tags:
 - source code
 comments: true
 ---
-***Update 4/30/2010:** I [updated this code](http://www.make-awesome.com/2010/04/nservicebus-timeoutmanager-revisited/) to use a provider implementation so that it is easy to switch out the MSMQ storage for database storage or any other storage medium.  [Check it out!](http://www.make-awesome.com/2010/04/nservicebus-timeoutmanager-revisited/)*
+***Update 4/30/2010:** I [updated this code](/2010/04/nservicebus-timeoutmanager-revisited/) to use a provider implementation so that it is easy to switch out the MSMQ storage for database storage or any other storage medium.  [Check it out!](/2010/04/nservicebus-timeoutmanager-revisited/)*
 
 [Udi Dahan](http://www.udidahan.com/) himself has stated that the TimeoutManager included with [NServiceBus 2.0](http://www.nservicebus.com) is "not generically suitable for production" purposes, and since I needed to create a system that used a TimeoutManager for multiple sagas in production, I set about the task to create a better one.
 
@@ -44,7 +44,7 @@ I don't believe that this is by any means a perfect system, in fact I believe it
  The last point is why I invite you to download the code and bang on it yourself.
 
 -   [Timeout Manager Source (Version 1.0)](/downloads/TimeoutManager-1.0.zip) - Visual Studio 2008 project - 4/26/2010
--   TimeoutManager 1.1 Source - See [NServiceBus TimeoutManager Revisited](http://www.make-awesome.com/2010/04/nservicebus-timeoutmanager-revisited/)
+-   TimeoutManager 1.1 Source - See [NServiceBus TimeoutManager Revisited](/2010/04/nservicebus-timeoutmanager-revisited/)
 
  To build, simply unzip the project, include it in a solution, fix the references to the NServiceBus components and Log4Net, build, and go.
 

@@ -11,7 +11,7 @@ tags:
 - source code
 comments: true
 ---
-In my [previous post](http://www.make-awesome.com/2010/04/building-a-better-nservicebus-timeoutmanager/) I attempted to build an NServiceBus Timeout Manager that used timers and events to send back timeout messages when they came due instead of looping through the message queue with thread sleeps until each message was ready to send back that occurs in the timeout manager included with the NServiceBus 2.0 RTM.
+In my [previous post](/2010/04/building-a-better-nservicebus-timeoutmanager/) I attempted to build an NServiceBus Timeout Manager that used timers and events to send back timeout messages when they came due instead of looping through the message queue with thread sleeps until each message was ready to send back that occurs in the timeout manager included with the NServiceBus 2.0 RTM.
 
 That implementation stored timeouts that were set to expire "soon" in memory, and stored everything in a secondary MSMQ queue so that if the application failed, it could recover when it started back up.
 

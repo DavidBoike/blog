@@ -10,7 +10,7 @@ tags:
 - architecture
 comments: true
 ---
-When presenting my [Distributed Application Development with NServiceBu](http://www.make-awesome.com/presentations/)s talk at the [Twin Cities Code Camp 10](http://www.twincitiescodecamp.com), I was asked by an attendee why NServiceBus's automated retry feature doesn't have some sort of a delay or back-off algorithm.  Unfortunately I had never really thought about it, and I didn't have a very good answer for him.
+When presenting my [Distributed Application Development with NServiceBu](/presentations/)s talk at the [Twin Cities Code Camp 10](http://www.twincitiescodecamp.com), I was asked by an attendee why NServiceBus's automated retry feature doesn't have some sort of a delay or back-off algorithm.  Unfortunately I had never really thought about it, and I didn't have a very good answer for him.
 
 This week I have the good fortune to be attending [Udi Dahan's](http://www.udidahan.com) [Advanced Distributed System Design](http://www.udidahan.com/training/#Advanced_Distributed_System_Design) course in New York, so I thought I would get the answer direct from the source.
 

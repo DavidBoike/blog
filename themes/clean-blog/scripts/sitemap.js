@@ -2,7 +2,7 @@
 
 const _ = require('lodash');
 const moment = require('moment');
-const siteUrl = 'https://www.make-awesome.com';
+const siteUrl = 'https://www.davidboike.dev';
 
 hexo.extend.generator.register('sitemap', function (locals) {
 

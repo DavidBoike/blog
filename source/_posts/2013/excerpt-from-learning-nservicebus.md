@@ -13,7 +13,7 @@ comments: true
 ---
 My publisher has allowed me to reprint my favorite part of my book, [Learning NServiceBus](http://www.packtpub.com/build-distributed-software-systems-using-dot-net-enterprise-service-bus/book), here on my blog. It is the introduction to Chapter 3, Preparing for Failure.
 
-Why is it my favorite? Chapter 3 is the chapter that deals with how to be ready for the inevitable errors that will befall a system due to the [fallacies of distributed computing](http://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing), stupid user tricks, and plain outright buggy code. This is the part of NServiceBus that [really grabbed me in the beginning](http://www.make-awesome.com/2011/02/my-nservicebus-moment-of-bliss/) and has never let go.
+Why is it my favorite? Chapter 3 is the chapter that deals with how to be ready for the inevitable errors that will befall a system due to the [fallacies of distributed computing](http://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing), stupid user tricks, and plain outright buggy code. This is the part of NServiceBus that [really grabbed me in the beginning](/2011/02/my-nservicebus-moment-of-bliss/) and has never let go.
 
 Plus, and I can’t stress this point enough, ***this is the part of the book about Batman***.
 
