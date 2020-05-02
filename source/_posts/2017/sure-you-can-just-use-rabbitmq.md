@@ -3,6 +3,7 @@ layout: post
 date: 2017-12-13
 title: Sure, you can just use RabbitMQ
 permalink: sure-you-can-just-use-rabbitmq
+cover: /images/2017/rabbit-hawk.jpg
 comments: true
 categories:
 - Development
