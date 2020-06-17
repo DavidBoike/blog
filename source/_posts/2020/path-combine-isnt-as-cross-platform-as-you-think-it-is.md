@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-06-16
+date: 2020-06-17
 title: Path.Combine() isn't as cross-platform as you think it is
 permalink: path-combine-isnt-as-cross-platform-as-you-think-it-is
 cover: /images/2020/banana-slip.jpg
