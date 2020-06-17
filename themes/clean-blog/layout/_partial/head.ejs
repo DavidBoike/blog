@@ -54,7 +54,10 @@
     <!--Page Cover-->
     <%
         var image = '';
-        if (page.share_cover) {
+        if (page.cover) {
+            image = page.cover;
+        }
+        else if (page.share_cover) {
             image = page.share_cover;
         } else if (config.cover) {
             image = config.cover;
