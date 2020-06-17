@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
 
     - name: Build and Deploy
-      uses: renzhaosy/hexo-deploy-action@master
+      uses: renzhaosy/hexo-deploy-action@0.0.1
       env:
         PERSONAL_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
         PUBLISH_REPOSITORY: DavidBoike/davidboike.github.io # The repository the action should deploy to.
