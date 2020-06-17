@@ -128,7 +128,7 @@ Path.Combine(basePath, "a", "b", "c");
 
 But unfortunately, it's pretty common to see a lot more of the former than the latter.
 
-## Windows is too forgiving
+## Problem 2: Windows is too forgiving
 
 I've seen `Path.Combine(…)` used as sort of a low-rent version of `Server.MapPath(string path)` method, a staple of my (thankfully long-over) ASP.NET Web Forms days.
 
@@ -175,7 +175,7 @@ For the record, the next few search results right at this moment:
 
 You get the idea? How many developers would search farther than this? Maybe I'll get lucky and this post will crack the top 5 and help somebody out. Maybe that person is you!
 
-## Root paths
+## Problem 3: Root paths
 
 Consider these two examples:
 
