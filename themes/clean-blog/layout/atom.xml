@@ -17,7 +17,7 @@
   {% for post in posts.toArray() %}
   <entry>
     <title>{{ post.title }}</title>
-    <link href="{{ (url + post.date.format('YYYY/MM/') + post.slug) | uriencode }}"/>
+    <link href="{{ post.permalink }}"/>
     <id>{{ post.permalink }}</id>
     <updated>{{ post.date.toISOString() }}</updated>
     {% if feedConfig.content and post.content %}
