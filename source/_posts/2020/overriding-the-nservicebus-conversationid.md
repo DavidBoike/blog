@@ -13,6 +13,8 @@ tags:
 - source code
 ---
 
+> _**UPDATE:** Starting in NServiceBus version 7.4 you can [create a new ConversationId](https://docs.particular.net/nservicebus/messaging/headers#messaging-interaction-headers-nservicebus-conversationid-starting-a-new-conversation) using `sendOptions.StartNewConversation()`. No more need to create a custom pipeline behavior as I explain here._
+
 The purpose of the `ConversationId` header included with every NServiceBus message is to relate a whole bunch of messages together as all having started from the same action. It's generally a very bad idea to mess with the `ConversationId` in a message handler, so if you try, you'll get this exception:
 
 > System.Exception: Cannot set the NServiceBus.ConversationId header to '9203ecb1-d2ed-46eb-ae99-fbeb7a5db387' as it cannot override the incoming header value ('a1c91a87-2db9-493f-a638-ab9d016a1305').
