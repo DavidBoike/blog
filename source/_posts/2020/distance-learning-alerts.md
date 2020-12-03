@@ -16,7 +16,7 @@ My kids have been distance learning since March. When Fall came, we picked the D
 
 For what it's worth, we were right. After Thanksgiving, everyone in our district is distance learning too.
 
-My oldest is in 3rd grade, my youngest is in kindergarten. The district is pretty on top of things—moreso than in the Spring. Both kids have school-issued iPads, have sync lessons over [Zoom](https://zoom.us/) primarily on Mondays and Wednesdays, and get and submit assignments through [SeeSaw](https://web.seesaw.me/) on async days.
+My oldest is in 3rd grade, my youngest is in kindergarten. The district is pretty on top of things. Both kids have school-issued iPads, have sync lessons over [Zoom](https://zoom.us/) primarily on Mondays and Wednesdays, and get and submit assignments through [SeeSaw](https://web.seesaw.me/) on async days.
 
 Two of the biggest problems at the start were schedule and Zoom links. Both kids have different schedules of when they need to be on Zoom, and needed an easy way to know which Zoom link they needed to join. I also didn't want to be typing Zoom meeting IDs into an iPad keyboard that I was reading off my computer or phone. I needed a way to be able to manage schedule and links from my computer, make them available to each kid, and then make sure their butt was in the seat at the appropriate time.
 
